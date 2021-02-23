@@ -188,9 +188,6 @@ margin-bottom: 50px;
   color: #fff;
 }
 
-@media screen & (max-width: 768px) {
-  
-}
 #contact{
   background: #545555;
   color: #fff;
@@ -216,4 +213,8 @@ padding-bottom: 20px;
   font-weight: bold;
   padding-top: 50px;
   font-size: 20px;
+}
+
+@media screen & (max-width: 768px) {
+  
 }
