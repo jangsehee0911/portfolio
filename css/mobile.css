@@ -55,6 +55,7 @@
 }
 
 #about {
+  width: 100%;
   height: auto;
   padding: 100px 20px;
   overflow: hidden;
@@ -65,7 +66,14 @@
   width: 100%;
   box-shadow: -10px -10px #FFF;
 }
-
+#about P{
+  font-size: 16px;
+  }
+#about dl, dt, dd{
+  font-size: 14px;
+  }
+  #about dl dd span{ font-size: 12px;
+  }
 #contact{
   background: #545555;
   color: #fff;
