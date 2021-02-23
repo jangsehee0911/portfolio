@@ -64,3 +64,26 @@
   margin-bottom: 50px;
   width: 100%;
 }
+
+#contact{
+  background: #545555;
+  color: #fff;
+}
+
+#contact .mail{
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#contact .copy
+{
+text-align: center;
+font-size: 14px;
+}
+
+#contact .info{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
