@@ -14,7 +14,9 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 18px;
 }
-
+@media screen & (max-width: 768px) {
+  
+}
 #main_header {
   position: fixed;
   width: 100%;
@@ -188,9 +190,7 @@ margin-bottom: 50px;
   background: #000;
   color: #fff;
 }
-@media screen & (max-width: 768px) {
-  
-}
+
 #contact{
   background: #545555;
   color: #fff;
