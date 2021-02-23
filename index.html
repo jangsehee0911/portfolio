@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>웹퍼블리셔 장세희의 포트폴리오</title>
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/grid.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- mobile css -->
+  <link rel="stylesheet" href="./css/mobile.css" media="screen and (max-width: 767px)">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- AOS  -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- fancy box -->
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <!-- 사용자 자바스크립트 -->
+  <script src="./js/main.js"></script>
+</head>
+<body>
+  <header id="main_header">
+    <div class="container">
+      <h1><a href="./">SH Portfolio</a></h1>
+      <nav id="gnb">
+        <ul>
+          <li><a href="./">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#works">works</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+    </div><!-- end container -->
+  </header>
+
+  <section id="visual">
+    <div class="container">
+      <div class="title-group">
+        <h2>web publisher<br>
+          <span>jang se hees</span>
+        </h2>
+      </div>
+    </div><!-- end container -->
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <article class="photo col_6" data-aos="fade-right">
+          <img src="./images/me.jpg" alt="사진">
+        </article>
+        <article class="text col_6" data-aos="fade-left" data-aos-offset="300">
+          <h2>ABOUT</h2>
+          <p>안녕하세요. 오늘보다 내일 더! 하루하루 발전해 가는 장세희 입니다.<br>
+             남녀노소 누구나 웹 & 모바일을 쉽게 이용할수 있도록 사용자 입장에서 생각하고 기획자, 디자이너, 개발자의 의도를 존중하며 원활하게 협업할수 있도록 노력하겠습니다. 부족한 점은 배우고 채워가며 멋진 웹 퍼블리셔로 성장하고 싶습니다.</div></p>
+              <dl>
+                <dt>Name.</dt>
+                <dd>장세희</dd>
+              </dl>
+              <dl>
+                <dt>Age.</dt>
+                <dd>33 (1989.09.11)</dd>
+              </dl>
+              <dl>
+                <dt>Education.</dt>
+                <dd> UI/UX 디자인&퍼블리싱 교육 이수   (이젠아카데미)&nbsp;&nbsp;<span>2020.11~2021.02</span></dd>
+        </article>
+      </div>
+    </div><!-- end container -->
+  </section>
+
+  <section id="works">
+    <div class="container">
+      <h2>MY WORKS</h2>
+      <div class="tab-group">
+        <button id="btn-all">all</button>
+        <button id="btn-web">web site design</button>
+        <button id="btn-concept">concept design</button>
+      </div>
+      <!-- 작품 목록 -->
+      <ul class="list row">
+        <li class="col_4 web">
+          <!-- a href 여기 작품사진(큰거) -->
+          <a href="https://jangsehee0911.github.io/bluebottle/" target="_blank">
+            <!-- img src 여기는 썹네일 작은 이미지(규격대로) -->
+       <img src="./images/bluebottle-mokup.jpg" alt="1">
+          </a>
+          <h3>Blue Bottle</h3>
+          <p>모바일 웹사이트<p><span>html / css / jquery</span></p>
+        </li>
+
+        <li class="col_4 web">
+          <a href="https://jangsehee0911.github.io/sweethome/" target="_blank">
+            <img src="./images/sweethome-mokup.jpg" alt="2">
+          </a>
+          <h3>Sweet Home</h3>
+          <p>반응형 웹사이트<p><span>html / css / jquery</span></p>
+        </li>
+
+        <li class="col_4 web">
+          <a href="https://jangsehee0911.github.io/worldvision/" target="_blank">
+            <img src="./images/worldvision-Mockup.jpg" alt="3">
+          </a>
+          <h3>World Vision</h3>
+          <p>기업 웹사이트<p><span>html / css / jquery</span></p>
+        </li>
+        
+        
+        <li class="col_4 concept">
+          <a data-fancybox="gallery" href="./images/goddog-detail.jpg">
+            <img src="./images/goddog-mokup.jpg" alt="4"></a>
+          <h3>GODDOG</h3>
+          <p>핫도그 전문점<p><span>Illustrato</span></p>
+        </li>
+
+        <li class="col_4 concept">
+            <a data-fancybox="gallery" href="./images/mugmug-detail2.jpg">
+            <img src="./images/mugmug-mokup.jpg" alt="5"></a>
+          <h3>MUG MUG</h3>
+          <p>커피 전문점<p><span>Illustrator</span></p>
+        </li>
+      </ul>
+    </div><!-- end container -->
+  </section>
+<footer id="contact">
+<h2>contact</h2>
+</p>
+<p class="mail">
+  <a target="_blank" href="http://mail.google.com/mail/?view=cm&fs=1&to=sehee890911@gmail.com">sehee890911@gmail.com</a>
+
+  <p class="info">
+    <a a target="_blank" href="https://github.com/jangsehee0911">Github</a>
+
+<p class="copy">© 2021 JANGSEHEE. All Rights Reserved</p>
+</footer>
+</body>
+</html>
