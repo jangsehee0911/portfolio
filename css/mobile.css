@@ -96,3 +96,10 @@ font-size: 14px;
   font-weight: bold;
   font-size: 20px;
 }
+
+#contact{
+  background-image: url(../images/main2.jpg);
+  background-position: center;
+  color: #fff;
+  padding-top: 50px;
+}
